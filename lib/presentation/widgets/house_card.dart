@@ -62,6 +62,7 @@ class HouseCard extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
                 gradient: LinearGradient(
+                  // ignore: deprecated_member_use
                   colors: [Colors.black.withOpacity(0.7), Colors.transparent],
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,

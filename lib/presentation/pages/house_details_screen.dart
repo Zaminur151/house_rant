@@ -36,6 +36,7 @@ class HouseDetailPage extends StatelessWidget {
                         Get.back();
                        },
                       child: CircleAvatar(
+                        // ignore: deprecated_member_use
                         backgroundColor:Colors.black.withOpacity(0.24),
                         child: SvgPicture.asset("assets/images/icon_back.svg")
                       ),
@@ -45,6 +46,7 @@ class HouseDetailPage extends StatelessWidget {
                     top: 20,
                     right: 20,
                     child: CircleAvatar(
+                      // ignore: deprecated_member_use
                       backgroundColor: Colors.black.withOpacity(0.24),
                       child: Icon(Icons.bookmark_border,color: AppColor.whiteColor,),
                     ),
@@ -58,6 +60,7 @@ class HouseDetailPage extends StatelessWidget {
                        decoration: BoxDecoration(
                 borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
                 gradient: LinearGradient(
+                  // ignore: deprecated_member_use
                   colors: [Colors.black.withOpacity(0.8), Colors.transparent],
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
@@ -174,6 +177,7 @@ class HouseDetailPage extends StatelessWidget {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
+                    // ignore: deprecated_member_use
                     Colors.white.withOpacity(0), 
                     Colors.white,
                   ],
@@ -221,6 +225,7 @@ class HouseDetailPage extends StatelessWidget {
           height: 28,
           width: 28,
           decoration: BoxDecoration(
+            // ignore: deprecated_member_use
             color: Colors.white.withOpacity(0.20),
             borderRadius: BorderRadius.circular(5)
           ),
@@ -255,6 +260,7 @@ class HouseDetailPage extends StatelessWidget {
             Positioned.fill(
               child: Container(
                 decoration: BoxDecoration(
+                  // ignore: deprecated_member_use
                   color: Colors.black.withOpacity(0.5),
                   borderRadius: BorderRadius.circular(12),
                 ),

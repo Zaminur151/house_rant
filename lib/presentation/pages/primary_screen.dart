@@ -55,6 +55,7 @@ class _PrimaryPageState extends State<PrimaryPage> {
     return Obx((){
       return PopScope(
       canPop: false,
+    // ignore: deprecated_member_use
     onPopInvoked: (didPop) async {
       if (!didPop) {
         if (drawerController.isDrawerOpen.value) {

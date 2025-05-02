@@ -9,7 +9,7 @@ import 'package:home_rant/presentation/widgets/house_card.dart';
 
 
 class HomePage extends StatefulWidget {
-   HomePage({super.key});
+   const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
